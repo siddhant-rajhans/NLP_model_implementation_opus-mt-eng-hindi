@@ -22,9 +22,13 @@ Implementation of [Helsinki-NLP/opus-mt-en-hi model](https://huggingface.co/Hels
 | tico19-test.eng-hin 	| 13.6 	| 0.338 	| 2100 	| 62738 	| 0.844 |
 
 ## To clone the original repo
-* git lfs install
-* git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-hi
+```bash
+  git lfs install
+  git clone https://huggingface.co/Helsinki-NLP/opus-mt-en-hi
+```
 ### if you want to clone without large files – just their pointers. prepend your git clone with the following env var:
+```bash 
 GIT_LFS_SKIP_SMUDGE=1
+```
 
 
